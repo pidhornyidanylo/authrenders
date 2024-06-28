@@ -1,0 +1,29 @@
+#login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#login-form>div {
+    min-width: 200px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+#login-form>div>input {
+    padding: 8px 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#login-form>button {
+    width: 350px;
+}
